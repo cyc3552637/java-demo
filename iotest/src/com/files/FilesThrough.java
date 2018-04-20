@@ -1,4 +1,4 @@
-package com.Files;
+package com.files;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;

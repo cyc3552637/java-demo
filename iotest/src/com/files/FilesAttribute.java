@@ -1,4 +1,4 @@
-package com.Files;
+package com.files;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;

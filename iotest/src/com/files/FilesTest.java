@@ -1,4 +1,4 @@
-package com.Files;
+package com.files;
 
 import java.io.FileOutputStream;
 import java.nio.charset.Charset;
