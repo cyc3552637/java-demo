@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre"/>
+	<classpathentry kind="lib" path="E:/workspace8/DynamicProxy/bin/cglib-3.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace8/DynamicProxy/bin/cglib-nodep-3.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace8/DynamicProxy/bin/asm-6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
