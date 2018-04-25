@@ -4,6 +4,8 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
+//Callable 相当于之前的 Runnable, 只是 Callable 是有返回值的
+//FutureTask配合Callable使用
 public class MyCallable implements Callable {  
 	  
     private int tickets = 10;  
