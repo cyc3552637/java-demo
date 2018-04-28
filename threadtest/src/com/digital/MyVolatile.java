@@ -60,12 +60,12 @@ public class MyVolatile {
 			st[i]=new SynchronizedThread();
 			tv[i]=new ThreadVolatile();
 		}
-//		for (ThreadNoLock t:tnl) {
-//			t.start();
-//        }
-//		for (SynchronizedThread s:st) {
-//			s.start();
-//        }
+		for (ThreadNoLock t:tnl) {
+			t.start();
+        }
+		for (SynchronizedThread s:st) {
+			s.start();
+        }
 		for (ThreadVolatile v:tv) {
 			v.start();
         }
