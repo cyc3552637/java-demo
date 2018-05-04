@@ -52,7 +52,7 @@ ShellSort(希尔排序):
 稳定性：不稳定  
   
   
-#  归并排序  
+#  归并排序类    
 包含：MergingSort(归并排序)  
   
 MergingSort(归并排序):  
@@ -63,9 +63,9 @@ MergingSort(归并排序):
 稳定性：稳定  
   
   
-#  桶排序  
+#  桶排序类    
 包含：BucketSort(桶排序)    
      
     
-#  基数排序  
+#  基数排序类    
 包含：RadixSort(基数排序)  
