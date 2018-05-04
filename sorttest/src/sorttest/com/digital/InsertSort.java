@@ -2,7 +2,13 @@ package sorttest.com.digital;
 
 import java.util.Arrays;
 
-//插入排序，平均时间复杂度为O(n*n)
+//插入排序
+//平均时间复杂度：O(n*n)
+//最好时间复杂度：O(n)
+//最坏时间复杂度：O(n*n)
+//辅助空间：O(1)
+//稳定性：稳定
+//分类：插入排序类
 public class InsertSort {
 	public  void insertSort(int [] numbers){
 		long start =System.currentTimeMillis();

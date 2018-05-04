@@ -2,6 +2,14 @@ package sorttest.com.digital;
 
 import java.util.Arrays;
 
+
+//快速排序
+//平均时间复杂度：O(nlogn)
+//最好时间复杂度：O(nlogn)
+//最坏时间复杂度：O(n*n)
+//辅助空间：O(logn)-O(n)
+//稳定性：不稳定
+//分类：交换排序类
 public class QickSort {
       public void quickSort(int [] numbers){
     	  long start =System.currentTimeMillis();

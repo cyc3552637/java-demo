@@ -2,6 +2,14 @@ package sorttest.com.digital;
 
 import java.util.Arrays;
 
+
+//堆排序
+//平均时间复杂度：O(nlogn)
+//最好时间复杂度：O(nlogn)
+//最坏时间复杂度：O(nlogn)
+//辅助空间：O(1)
+//稳定性：不稳定
+//分类：选择排序类
 public class HeapSort {
 	public void heapsort(int [] numbers){
 		

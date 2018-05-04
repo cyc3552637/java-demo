@@ -2,6 +2,13 @@ package sorttest.com.digital;
 
 import java.util.Arrays;
 
+//归并排序
+//平均时间复杂度：O(nlogn)
+//最好时间复杂度：O(nlogn)
+//最坏时间复杂度：O(nlogn)
+//辅助空间：O(n)
+//稳定性：稳定
+//分类：归并排序类
 public class MergingSort {
 	public void mergingSort(int [] numbers){ 
 		 long start =System.currentTimeMillis();
