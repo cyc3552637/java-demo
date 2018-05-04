@@ -9,7 +9,7 @@
   
 #  NIO.files  
   
-1、Files工具类基本操作。  
-2、Files工具类操作文件属性。   
-3、Files工具类进行文本搜索。  
-4、Files工具类监测硬盘情况。  
+1、Files工具类基本操作。(FilesTest)  
+2、Files工具类操作文件属性。(FilesAttribute)    
+3、Files工具类进行文本搜索。(FilesThrough)  
+4、Files工具类监测硬盘情况。(FilesWatch)  
