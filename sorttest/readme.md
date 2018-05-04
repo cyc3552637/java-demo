@@ -1,71 +1,71 @@
-# ѡ��������   
-������StraightSort(ֱ��ѡ������)��SelectionSort(ѡ������)��HeapSort(������)  
+# 选择排序类   
+包含：StraightSort(直接选择排序)、SelectionSort(选择排序)、HeapSort(堆排序)  
   
-StraightSort(ֱ��ѡ������)��SelectionSort(ѡ������):    
-ƽ��ʱ�临�Ӷȣ�O(n*n)  
-���ʱ�临�Ӷȣ�O(n*n)  
-�ʱ�临�Ӷȣ�O(n*n)  
-�����ռ䣺O(1)  
-�ȶ��ԣ����ȶ�  
+StraightSort(直接选择排序)、SelectionSort(选择排序):    
+平均时间复杂度：O(n*n)  
+最好时间复杂度：O(n*n)  
+最坏时间复杂度：O(n*n)  
+辅助空间：O(1)  
+稳定性：不稳定  
   
-HeapSort(������):    
-ƽ��ʱ�临�Ӷȣ�O(nlogn)  
-���ʱ�临�Ӷȣ�O(nlogn)  
-�ʱ�临�Ӷȣ�O(nlogn)  
-�����ռ䣺O(1)  
-�ȶ��ԣ����ȶ�  
+HeapSort(堆排序):    
+平均时间复杂度：O(nlogn)  
+最好时间复杂度：O(nlogn)  
+最坏时间复杂度：O(nlogn)  
+辅助空间：O(1)  
+稳定性：不稳定  
   
    
-#  ����������    
-������BubbleSort(ð������)��QickSort(��������)  
+#  交换排序类    
+包含：BubbleSort(冒泡排序)、QickSort(快速排序)  
   
-BubbleSort(ð������):  
-ƽ��ʱ�临�Ӷȣ�O(n*n)  
-���ʱ�临�Ӷȣ�O(n)  
-�ʱ�临�Ӷȣ�O(n*n)  
-�����ռ䣺O(1)  
-�ȶ��ԣ��ȶ�  
+BubbleSort(冒泡排序):  
+平均时间复杂度：O(n*n)  
+最好时间复杂度：O(n)  
+最坏时间复杂度：O(n*n)  
+辅助空间：O(1)  
+稳定性：稳定  
   
-QickSort(��������):  
-ƽ��ʱ�临�Ӷȣ�O(nlogn)  
-���ʱ�临�Ӷȣ�O(nlogn)  
-�ʱ�临�Ӷȣ�O(n*n)  
-�����ռ䣺O(logn)-O(n)  
-�ȶ��ԣ����ȶ�  
+QickSort(快速排序):  
+平均时间复杂度：O(nlogn)  
+最好时间复杂度：O(nlogn)  
+最坏时间复杂度：O(n*n)  
+辅助空间：O(logn)-O(n)  
+稳定性：不稳定  
   
     
-#  ����������  
-������InsertSort(��������)��BinarySort(�۰�����)��ShellSort(ϣ������)  
+#  插入排序类  
+包含：InsertSort(插入排序)、BinarySort(折半排序)、ShellSort(希尔排序)  
   
-InsertSort(��������)��BinarySort(�۰�����):  
-ƽ��ʱ�临�Ӷȣ�O(n*n)  
-���ʱ�临�Ӷȣ�O(n)  
-�ʱ�临�Ӷȣ�O(n*n)  
-�����ռ䣺O(1)  
-�ȶ��ԣ��ȶ�  
+InsertSort(插入排序)、BinarySort(折半排序):  
+平均时间复杂度：O(n*n)  
+最好时间复杂度：O(n)  
+最坏时间复杂度：O(n*n)  
+辅助空间：O(1)  
+稳定性：稳定  
   
-ShellSort(ϣ������):    
-ƽ��ʱ�临�Ӷȣ�O(nlogn)-O(n*n)  
-���ʱ�临�Ӷȣ�O(n^1.3)[n��1.3�η�]  
-�ʱ�临�Ӷȣ�O(n*n)  
-�����ռ䣺O(1)  
-�ȶ��ԣ����ȶ�  
-  
-  
-#  �鲢������    
-������MergingSort(�鲢����)  
-  
-MergingSort(�鲢����):  
-ƽ��ʱ�临�Ӷȣ�O(nlogn)  
-���ʱ�临�Ӷȣ�O(nlogn)  
-�ʱ�临�Ӷȣ�O(nlogn)  
-�����ռ䣺O(n)  
-�ȶ��ԣ��ȶ�  
+ShellSort(希尔排序):    
+平均时间复杂度：O(nlogn)-O(n*n)  
+最好时间复杂度：O(n^1.3)[n的1.3次方]  
+最坏时间复杂度：O(n*n)  
+辅助空间：O(1)  
+稳定性：不稳定  
   
   
-#  Ͱ������    
-������BucketSort(Ͱ����)    
+#  归并排序类    
+包含：MergingSort(归并排序)  
+  
+MergingSort(归并排序):  
+平均时间复杂度：O(nlogn)  
+最好时间复杂度：O(nlogn)  
+最坏时间复杂度：O(nlogn)  
+辅助空间：O(n)  
+稳定性：稳定  
+  
+  
+#  桶排序类    
+包含：BucketSort(桶排序)    
      
     
-#  ����������    
-������RadixSort(��������)  
+#  基数排序类    
+包含：RadixSort(基数排序)  
