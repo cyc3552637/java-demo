@@ -2,10 +2,13 @@
   
 Thread  
 多个线程同一个执行体是分别执行，每个线程都独立，不共享资源。  
+  
 Runnable  
 多个线程同一个执行体，共享资源。  
+  
 Future  
 相当于Thread，配合callable可以拿到返回值。   
+  
 Callable  
 相当于Runnable，有返回值，可以配合FutureTask不用线程池，配合Future有线程池。    
   
