@@ -7,7 +7,7 @@ import java.util.List;
 public class LinkedListAdd {
 	public List<String> add(){
 		List<String> list =  new LinkedList<String>();;
-		for(int i=0;i<1200000;i++){
+		for(int i=0;i<120000;i++){
 			int x=(int)(Math.random()*100);
 			list.add(String.valueOf(x));
 		}

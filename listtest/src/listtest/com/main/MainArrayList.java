@@ -110,6 +110,6 @@ public class MainArrayList {
 
 //复杂度总结
 //ArrayList是顺序存储，LinkedList是链式存储
-//for对于顺序存储，特定点复杂度O(1)，遍历复杂度O(n)。对于链式存储，特定点复杂度O(n),遍历复杂度O(n2)(n的平方)
+//for对于顺序存储，特定点复杂度O(1)，遍历复杂度O(n)。对于链式存储，特定点复杂度O(n),遍历复杂度O(n^2)(n的平方)
 //Iterator对于顺序存储，没有太大意义，还有额外操作，会慢一点。对链式存储，遍历复杂度为O(n)
 //foreach和Iterator一样，但是Iterator封装了一下，速度比Iterator慢一点。
