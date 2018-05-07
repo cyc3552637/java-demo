@@ -24,7 +24,7 @@ public class Main {
       Random random = new Random();
       for(int i=0;i<numbers.length;i++)
       {
-    	numbers[i]=(int)(random.nextInt(999)); //随机产生1到1000之间的任意数，你可以改成你想要的随机产生的数，我这里是
+    	numbers[i]=(int)(random.nextInt(9)); //随机产生1到1000之间的任意数，你可以改成你想要的随机产生的数，我这里是
       }
       System.out.println("original: "+Arrays.toString(numbers)); 
       
@@ -140,17 +140,17 @@ public class Main {
                             	}
                                 	 
                               };
-      insertsort.start();
-      bubblesort.start();
-      heapsort.start();
-      mergingsort.start();
-      qicksort.start();
-      shellsort.start();
-      straightsort.start();
-      selectionsort.start();
-      binarysort.start();
+//      insertsort.start();
+//      bubblesort.start();
+//      heapsort.start();
+//      mergingsort.start();
+//      qicksort.start();
+//      shellsort.start();
+//      straightsort.start();
+//      selectionsort.start();
+//      binarysort.start();
       bucketsort.start();
-      radixsort.start();
+//      radixsort.start();
 	}
 
 }
