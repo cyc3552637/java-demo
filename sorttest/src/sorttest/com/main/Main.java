@@ -20,7 +20,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       
-      int[] numbers  = new int[1000];
+      int[] numbers  = new int[10];
       Random random = new Random();
       for(int i=0;i<numbers.length;i++)
       {
@@ -28,7 +28,7 @@ public class Main {
       }
       System.out.println("original: "+Arrays.toString(numbers)); 
       
-      Thread thread1=new Thread(){
+      Thread insertsort=new Thread(){
 
 		@Override
 		public void run() {
@@ -39,7 +39,7 @@ public class Main {
     	  
       };
       
-      Thread thread2=new Thread(){
+      Thread bubblesort=new Thread(){
 
   		@Override
   		public void run() {
@@ -49,7 +49,7 @@ public class Main {
   		}
       	  
         };
-      Thread thread3=new Thread(){
+      Thread heapsort=new Thread(){
 
     		@Override
     		public void run() {
@@ -59,7 +59,7 @@ public class Main {
     		}
         	  
           };
-      Thread thread4=new Thread(){
+      Thread mergingsort=new Thread(){
 
     		@Override
     		public void run() {
@@ -69,7 +69,7 @@ public class Main {
     		}
         	  
           };
-      Thread thread5=new Thread(){
+      Thread qicksort=new Thread(){
 
     		@Override
     		public void run() {
@@ -80,7 +80,7 @@ public class Main {
         	  
           };
           
-          Thread thread6=new Thread(){
+          Thread shellsort=new Thread(){
 
       		@Override
       		public void run() {
@@ -90,7 +90,7 @@ public class Main {
       		}
           	  
             };
-            Thread thread7=new Thread(){
+            Thread straightsort=new Thread(){
 
           		@Override
           		public void run() {
@@ -100,7 +100,7 @@ public class Main {
           		}
               	  
                 };
-                Thread thread8=new Thread(){
+                Thread selectionsort=new Thread(){
 
               		@Override
               		public void run() {
@@ -110,7 +110,7 @@ public class Main {
               		}
                   	  
                     };
-                    Thread thread9=new Thread(){
+                    Thread binarysort=new Thread(){
 
                   		@Override
                   		public void run() {
@@ -120,7 +120,7 @@ public class Main {
                   		}
                       	  
                         };
-                    Thread thread10=new Thread(){
+                    Thread bucketsort=new Thread(){
 
                       @Override
                          public void run() {
@@ -130,7 +130,7 @@ public class Main {
                       	}
                           	 
                         };
-                     Thread thread11=new Thread(){
+                     Thread radixsort=new Thread(){
 
                          @Override
                           public void run() {
@@ -140,17 +140,17 @@ public class Main {
                             	}
                                 	 
                               };
-      thread1.start();
-      thread2.start();
-      thread3.start();
-      thread4.start();
-      thread5.start();
-      thread6.start();
-      thread7.start();
-      thread8.start();
-      thread9.start();
-      thread10.start();
-      thread11.start();
+      insertsort.start();
+      bubblesort.start();
+      heapsort.start();
+      mergingsort.start();
+      qicksort.start();
+      shellsort.start();
+      straightsort.start();
+      selectionsort.start();
+      binarysort.start();
+      bucketsort.start();
+      radixsort.start();
 	}
 
 }
