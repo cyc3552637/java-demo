@@ -76,3 +76,7 @@ public class BucketSort {
 //7、bucket[]数组的值非常精巧，里面存储的是numbers[]值出现的次数，这样就可以看作值是占位的，1表示有1个数，3表示有3个数。
 //bucket[0]=1,bucket[1]=3,bucket[2]=1。这样求和排序，bucket[1]=4,bucket[2]=5，也就是说到bucket[2]一共有5个数的位置。
 //上面说过也就是说bucket[]值大的，表示老的numbers[]值大的，在新的numbers[]数组中位置是靠后的。所以这个位置就是numbers的数字占位位置。
+
+//5、7、5、6、7、8
+//bucket[5]=2,bucket[6]=1,bucket[7]=2,bucket[8]=1
+//5、5、6、7、7、8
