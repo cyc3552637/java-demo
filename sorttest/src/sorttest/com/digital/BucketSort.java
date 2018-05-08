@@ -47,7 +47,7 @@ public class BucketSort {
 
      for (int k= numbers.length - 1; k >= 0; k--) {
 
-    	 numbers[--buckets[tmp[k] - min]] = tmp[k];
+    	 numbers[--buckets[tmp[k] - min]] = tmp[k];//buckets先减1再参加运算
 
      }
        long end =System.currentTimeMillis();
@@ -72,7 +72,7 @@ public class BucketSort {
 //3、buckets[i] = buckets[i] + buckets[i - 1]实际就是排序了，应为i小，就表示numbers[]的值小，bucket的值也给设小
 //4、最后取值的时候，根据k的值来取值，这时候buckets[]的值是作为numbers[]的位置。
 //5、也就是说bucket[]值大的，表示老的numbers[]值大的，在新的numbers[]数组中位置是靠后的。
-//6、这里因为处理重复的数据，所以拿出的时候是--buckets[],这里有两个作用，1、记录的重复的数都能读取到。2、相同的数位置相连。
+//6、这里因为处理重复的数据，所以拿出的时候是--buckets[],bucket里面记录的是数字的数量，所以数组下标需要-1，数组下标从0开始。同时bucket的数会自己--记录，这样下次循环到相同的下标，所取的位置是紧邻本次的前一个位置。
 //7、bucket[]数组的值非常精巧，里面存储的是numbers[]值出现的次数，这样就可以看作值是占位的，1表示有1个数，3表示有3个数。
 //bucket[0]=1,bucket[1]=3,bucket[2]=1。这样求和排序，bucket[1]=4,bucket[2]=5，也就是说到bucket[2]一共有5个数的位置。
 //上面说过也就是说bucket[]值大的，表示老的numbers[]值大的，在新的numbers[]数组中位置是靠后的。所以这个位置就是numbers的数字占位位置。

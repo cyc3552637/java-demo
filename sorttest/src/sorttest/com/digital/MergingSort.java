@@ -43,7 +43,7 @@ public class MergingSort {
 		    
 		   //从两个数组中取出最小的放入中间数组    
 		        if(data[left]<=data[mid]){    
-		            tmpArr[third++]=data[left++];    
+		            tmpArr[third++]=data[left++]; //left++，先赋值在+1，++left，先+1再赋值   
 		        }else{    
 		            tmpArr[third++]=data[mid++];    
 		        }    
@@ -63,3 +63,15 @@ public class MergingSort {
 		}    
 
 }
+//算法步骤
+//1、数组numbers,left=0,right=numbers.length-1。
+//2、如果左left小于右right,则 center=(left+right)/2;
+//3、分别对左侧和右侧进行循环内递归排序，sort(data,left,center)，sort(data,center+1,right);
+//4、将每次递归到的，left、right、center进行合并。
+//5、定义一个临时数组tmpArr，定义中间的值mid=center+1，third=left用以记录临时数组的索引。
+//6、当left小于center并且mid小于right的时候，判断取data[left]和data[mid]数，放到tmpArr[third++]临时数组。
+//7、其他剩余部分依次放入临时数组 。
+//8、将临时数组中的内容复制回原数组
+
+
+//解读
