@@ -20,11 +20,11 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       
-      int[] numbers  = new int[1000];
+      int[] numbers  = new int[100];
       Random random = new Random();
       for(int i=0;i<numbers.length;i++)
       {
-    	numbers[i]=(int)(random.nextInt(999)); //随机产生1到1000之间的任意数，你可以改成你想要的随机产生的数，我这里是
+    	numbers[i]=(int)(random.nextInt(99)); //随机产生1到1000之间的任意数，你可以改成你想要的随机产生的数，我这里是
       }
       System.out.println("original: "+Arrays.toString(numbers)); 
       Thread insertsort=new Thread(){
