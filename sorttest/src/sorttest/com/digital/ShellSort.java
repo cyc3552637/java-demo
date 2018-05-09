@@ -33,7 +33,6 @@ public class ShellSort {
              }  
              // 计算出下一个h值  
              h = (h - 1) / 3;  
-             System.out.println(Arrays.toString(numbers));
          }  
         long end =System.currentTimeMillis();
         System.out.println("shellSort: "+(end-start));
