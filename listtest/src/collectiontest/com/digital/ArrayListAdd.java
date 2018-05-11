@@ -1,4 +1,4 @@
-package listtest.com.digital;
+package collectiontest.com.digital;
 
 import java.util.ArrayList;
 import java.util.List;
