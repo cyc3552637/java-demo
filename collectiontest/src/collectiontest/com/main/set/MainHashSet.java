@@ -28,6 +28,7 @@ public class MainHashSet {
 				long start=System.currentTimeMillis();
 				HashSetAdd hsd=new HashSetAdd();
 				HashSet<String> hs1=hsd.add();
+				System.out.println("size1=:"+hs1.size());
 				for(String result:hs1){
 					result.toString();
 					
@@ -46,6 +47,7 @@ public class MainHashSet {
 				long start=System.currentTimeMillis();
 				HashSetAdd hsd=new HashSetAdd();
 				HashSet<String> hs2=hsd.add();
+				System.out.println("size2=:"+hs2.size());
 				Iterator<String> iter = hs2.iterator();
 				while(iter.hasNext()){
 				      String result = iter.next();
@@ -65,3 +67,4 @@ public class MainHashSet {
 	}
 
 }
+//hashset、linkedhashset、treeset都不能放重复的数据，只能放不重复的数据，重复的会自动去重

@@ -6,7 +6,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.TreeSet;
 
-import collectiontest.com.digital.list.LinkedHashSetAdd;
+import collectiontest.com.digital.set.LinkedHashSetAdd;
+
+
 
 
 
@@ -27,6 +29,7 @@ public class MainLinkedHashSet {
 				long start=System.currentTimeMillis();
 				LinkedHashSetAdd lhsd=new LinkedHashSetAdd();
 				LinkedHashSet<String> lhs1=lhsd.add();
+				System.out.println("size1=:"+lhs1.size());
 				for(String result:lhs1){
 					result.toString();
 					
@@ -45,6 +48,7 @@ public class MainLinkedHashSet {
 				long start=System.currentTimeMillis();
 				LinkedHashSetAdd lhsd=new LinkedHashSetAdd();
 				LinkedHashSet<String> lhs2=lhsd.add();
+				System.out.println("size2=:"+lhs2.size());
 				Iterator<String> iter = lhs2.iterator();
 				while(iter.hasNext()){
 				      String result = iter.next();

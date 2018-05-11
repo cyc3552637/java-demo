@@ -25,6 +25,7 @@ public class MainTreeSet {
 				long start=System.currentTimeMillis();
 				TreeSetAdd tsd=new TreeSetAdd();
 				TreeSet<String> ts1=tsd.add();
+				System.out.println("size1=:"+ts1.size());
 				for(String result:ts1){
 					result.toString();
 					
@@ -43,6 +44,7 @@ public class MainTreeSet {
 				long start=System.currentTimeMillis();
 				TreeSetAdd tsd=new TreeSetAdd();
 				TreeSet<String> ts2=tsd.add();
+				System.out.println("size2=:"+ts2.size());
 				Iterator<String> iter = ts2.iterator();
 				while(iter.hasNext()){
 				      String result = iter.next();

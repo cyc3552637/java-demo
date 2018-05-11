@@ -9,8 +9,8 @@ public class HashSetAdd {
 	public HashSet<String> add(){
 		HashSet<String> hashset =  new HashSet();
 		for(int i=0;i<120000;i++){
-			int x=(int)(Math.random()*100);
-			hashset.add(String.valueOf(x));
+	
+			hashset.add(String.valueOf(i));
 		}
 		return hashset;
 	}

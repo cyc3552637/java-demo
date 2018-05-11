@@ -25,6 +25,7 @@ public class MainLinkedList {
 				long start=System.currentTimeMillis();
 				LinkedListAdd ala=new LinkedListAdd();
 				List<String> list1=ala.add();
+				System.out.println("size1=:"+list1.size());
 				for(String result:list1){
 					result.toString();
 					
@@ -43,6 +44,7 @@ public class MainLinkedList {
 				long start=System.currentTimeMillis();
 				LinkedListAdd ala=new LinkedListAdd();
 				List<String> list2=ala.add();
+				System.out.println("size2=:"+list2.size());
 				Iterator<String> iter = list2.iterator();
 				while(iter.hasNext()){
 				      String result = iter.next();
@@ -61,6 +63,7 @@ public class MainLinkedList {
 				long start=System.currentTimeMillis();
 				LinkedListAdd ala=new LinkedListAdd();
 				List<String> list3=ala.add();
+				System.out.println("size3=:"+list3.size());
 				for(int i=0;i<list3.size();i++){
 					String result= list3.get(i);
 				   }
@@ -79,6 +82,7 @@ public class MainLinkedList {
 				long start=System.currentTimeMillis();
 				LinkedListAdd ala=new LinkedListAdd();
 				List<String> list4=ala.add();
+				System.out.println("size4=:"+list4.size());
 				int size=list4.size();
 				for(int i=0;i<size;i++){
 					String result= list4.get(i);
