@@ -1,0 +1,18 @@
+package maptest.com.digital;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapAdd {
+	public Map<String,String> add(){
+		 Map<String, String> map = new HashMap<String, String>();
+		for(int i=0;i<1000;i++){
+			map.put(String.valueOf(i), "a"+String.valueOf(i));
+		}
+		return map;
+		
+		
+		
+	}
+
+}
