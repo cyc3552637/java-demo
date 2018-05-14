@@ -21,9 +21,9 @@ foreach和Iterator一样，但是Iterator封装了一下，速度比Iterator慢一点。
 
 #  set比较  
   
-HashSet是用hash table实现的  
-TreeSet是使用tree 结构实现的(算法书中的红黑树)  
-LinkedHashSet是介于TreeSet和HashSet之间的,它利用hash table实现的,同时使用了Link List  
+HashSet是用哈希表实现的  
+TreeSet是使用树结构实现的(算法书中的红黑树)  
+LinkedHashSet是介于TreeSet和HashSet之间的,它利用哈希表实现的,同时使用了双向链表 
   
 1、哈希表(Hash table，也叫散列表):  
 是根据关键码值(Key value)而直接进行访问的数据结构。也就是说，它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，存放记录的数组叫做散列表。  
