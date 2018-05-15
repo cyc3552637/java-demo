@@ -5,6 +5,7 @@ import java.nio.charset.Charset;
 import java.nio.file.FileStore;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +35,9 @@ public class FilesTest {
         poem.add("银鞍照白马");  
         poem.add("飒沓如流星");  
         Files.write(Paths.get("D:/io/filesnio1.txt"), poem, Charset.forName("gbk"));  
+        
+        //这些增加的
+        Files.write(Paths.get("D:/io/filesnio1.txt"), poem, Charset.forName("gbk"),StandardOpenOption.APPEND);
         
         // 使用Java 8新增的Stream API列出当前目录下所有文件和子目录  
         Files.list(Paths.get("D:/io")).forEach(path -> System.out.println(path)); 
