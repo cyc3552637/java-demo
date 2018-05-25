@@ -28,7 +28,7 @@ public class MainTreeMap {
 				
 				long end=System.currentTimeMillis();
 				System.out.println("time1=: "+(end-start));
-				System.out.println("LinkedHashMapAdd1: "+show);
+				System.out.println("TreeHashMapAdd1: "+show);
 			}
 			
 		});
@@ -50,7 +50,7 @@ public class MainTreeMap {
 				
 				long end=System.currentTimeMillis();
 				System.out.println("time2=: "+(end-start));
-				System.out.println("LinkedHashMapAdd2: "+show);
+				System.out.println("TreeHashMapAdd2: "+show);
 			}
 			
 		});
